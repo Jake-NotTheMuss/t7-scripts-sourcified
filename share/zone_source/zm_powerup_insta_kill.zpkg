@@ -1,0 +1,9 @@
+// Zombie Powerup - Insta Kill
+//
+//////////////////////////////////////////////////////////
+
+scriptparsetree,scripts/zm/_zm_powerup_insta_kill.gsc
+scriptparsetree,scripts/zm/_zm_powerup_insta_kill.csc
+
+material,specialty_instakill_zombies
+xmodel,p7_zm_power_up_insta_kill

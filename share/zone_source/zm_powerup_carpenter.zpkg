@@ -1,0 +1,8 @@
+// Zombie Powerup - Carpenter
+//
+//////////////////////////////////////////////////////////
+
+scriptparsetree,scripts/zm/_zm_powerup_carpenter.gsc
+scriptparsetree,scripts/zm/_zm_powerup_carpenter.csc
+
+xmodel,p7_zm_power_up_carpenter

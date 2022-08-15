@@ -1,0 +1,9 @@
+// Zombie Powerup - Fire Sale
+//
+//////////////////////////////////////////////////////////
+
+scriptparsetree,scripts/zm/_zm_powerup_fire_sale.gsc
+scriptparsetree,scripts/zm/_zm_powerup_fire_sale.csc
+
+material,specialty_firesale_zombies
+xmodel,p7_zm_power_up_firesale

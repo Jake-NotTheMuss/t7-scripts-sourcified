@@ -1,0 +1,9 @@
+// Zombie Powerup - Double Points
+//
+//////////////////////////////////////////////////////////
+
+scriptparsetree,scripts/zm/_zm_powerup_double_points.gsc
+scriptparsetree,scripts/zm/_zm_powerup_double_points.csc
+
+material,specialty_doublepoints_zombies
+xmodel,p7_zm_power_up_double_points

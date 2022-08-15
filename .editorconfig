@@ -1,0 +1,36 @@
+# For format see editorconfig.org
+
+root = true
+
+# GSC
+[*.{csc,gsc,gsh}]
+indent_size = 4
+indent_style = tab
+
+# HavokScript
+[*.lua]
+indent_size = 4
+indent_style = tab
+
+# Config scripts
+[*.cfg]
+indent_size = 4
+indent_style = tab
+
+# Zone source tables
+[*.{zone,zpkg,class}]
+indent_size = 4
+indent_style = tab
+
+[*.{py,sh,txt}]
+indent_size = 4
+indent_style = space
+
+[*.{markdown,md}]
+indent_size = 4
+indent_style = space
+# Markdown syntax treats tabs as 4 spaces
+tab_width = 4
+
+[*.bat]
+end_of_line = crlf

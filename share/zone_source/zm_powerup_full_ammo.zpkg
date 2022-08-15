@@ -1,0 +1,8 @@
+// Zombie Powerup - Max Ammo
+//
+//////////////////////////////////////////////////////////
+
+scriptparsetree,scripts/zm/_zm_powerup_full_ammo.gsc
+scriptparsetree,scripts/zm/_zm_powerup_full_ammo.csc
+
+xmodel,p7_zm_power_up_max_ammo

@@ -1,0 +1,10 @@
+// Zombie Powerup - Nuke
+//
+//////////////////////////////////////////////////////////
+
+scriptparsetree,scripts/zm/_zm_powerup_nuke.gsc
+scriptparsetree,scripts/zm/_zm_powerup_nuke.csc
+
+xmodel,p7_zm_power_up_nuke
+
+fx,zombie/fx_powerup_nuke_zmb
