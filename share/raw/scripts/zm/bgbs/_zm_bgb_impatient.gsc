@@ -23,7 +23,7 @@
 #namespace zm_bgb_impatient;
 
 
-REGISTER_SYSTEM( BGB_IMPATIENT_NAME, &__init__, "bgb" )
+REGISTER_SYSTEM( ZM_BGB_IMPATIENT_NAME, &__init__, "bgb" )
 
 function __init__()
 {
@@ -32,7 +32,7 @@ function __init__()
 		return;
 	}
 
-	bgb::register( BGB_IMPATIENT_NAME, BGB_IMPATIENT_LIMIT_TYPE, &event, undefined, undefined, undefined );
+	bgb::register( ZM_BGB_IMPATIENT_NAME, ZM_BGB_IMPATIENT_LIMIT_TYPE, &event, undefined, undefined, undefined );
 }
 
 

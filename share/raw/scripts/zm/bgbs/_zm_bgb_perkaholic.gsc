@@ -20,7 +20,7 @@
 #namespace zm_bgb_perkaholic;
 
 
-REGISTER_SYSTEM( BGB_PERKAHOLIC_NAME, &__init__, "bgb" )
+REGISTER_SYSTEM( ZM_BGB_PERKAHOLIC_NAME, &__init__, "bgb" )
 
 function __init__()
 {
@@ -29,7 +29,7 @@ function __init__()
 		return;
 	}
 
-	bgb::register( BGB_PERKAHOLIC_NAME, BGB_PERKAHOLIC_LIMIT_TYPE, &event, undefined, undefined, undefined );
+	bgb::register( ZM_BGB_PERKAHOLIC_NAME, ZM_BGB_PERKAHOLIC_LIMIT_TYPE, &event, undefined, undefined, undefined );
 }
 
 
