@@ -1,0 +1,2 @@
+#define BGB_IMPATIENT_NAME			"zm_bgb_impatient"
+#define BGB_IMPATIENT_LIMIT_TYPE	BGB_LIMIT_TYPE_EVENT

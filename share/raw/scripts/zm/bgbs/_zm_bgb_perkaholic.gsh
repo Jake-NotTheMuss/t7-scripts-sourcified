@@ -1,0 +1,2 @@
+#define BGB_PERKAHOLIC_NAME			"zm_bgb_perkaholic"
+#define BGB_PERKAHOLIC_LIMIT_TYPE	BGB_LIMIT_TYPE_EVENT
