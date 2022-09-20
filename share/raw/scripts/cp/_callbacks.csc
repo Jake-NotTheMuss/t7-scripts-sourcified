@@ -267,7 +267,7 @@ function creating_corpse( localClientNum, player )
 {
 }
 
-function callback_stunned( localClientNum, oldVal, newVal, bNewEnt, bInitialSnap, fieldName, bWasDemoJump )
+function callback_stunned( localClientNum, oldVal, newVal, bNewEnt, bInitialSnap, fieldName, bWasTimeJump )
 {
 	self.stunned = newVal;
 	
@@ -283,7 +283,7 @@ function callback_stunned( localClientNum, oldVal, newVal, bNewEnt, bInitialSnap
 	}
 }
 
-function callback_emp( localClientNum, oldVal, newVal, bNewEnt, bInitialSnap, fieldName, bWasDemoJump )
+function callback_emp( localClientNum, oldVal, newVal, bNewEnt, bInitialSnap, fieldName, bWasTimeJump )
 {
 	self.emp = newVal;
 	
@@ -299,7 +299,7 @@ function callback_emp( localClientNum, oldVal, newVal, bNewEnt, bInitialSnap, fi
 	}
 }
 
-function callback_proximity( localClientNum, oldVal, newVal, bNewEnt, bInitialSnap, fieldName, bWasDemoJump )
+function callback_proximity( localClientNum, oldVal, newVal, bNewEnt, bInitialSnap, fieldName, bWasTimeJump )
 {
 	self.enemyInProximity = newVal;
 }

@@ -86,7 +86,7 @@ function train_countdown( localClientNum )
 	}
 }
 
-function trainTimerSpawned( localClientNum, oldVal, newVal, bNewEnt, bInitialSnap, fieldName, bWasDemoJump )
+function trainTimerSpawned( localClientNum, oldVal, newVal, bNewEnt, bInitialSnap, fieldName, bWasTimeJump )
 {
 	if ( !newVal )
 		return;

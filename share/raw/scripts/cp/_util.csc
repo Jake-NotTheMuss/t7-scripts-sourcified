@@ -49,7 +49,7 @@ function init_breath_fx()
 	clientfield::register( "actor", "ai_cold_breath", VERSION_SHIP, 1, "counter", &handle_ai_breath, !CF_HOST_ONLY, !CF_CALLBACK_ZERO_ON_NEW_ENT );
 }
 
-function handle_cold_breath(localClientNum, oldVal, newVal, bNewEnt, bInitialSnap, fieldName, bWasDemoJump)
+function handle_cold_breath(localClientNum, oldVal, newVal, bNewEnt, bInitialSnap, fieldName, bWasTimeJump)
 {
 	if( newVal == 1 )
 	{
@@ -81,7 +81,7 @@ function player_breath_1p( localClientNum )
 	}
 }
 
-function handle_ai_breath( localClientNum, oldVal, newVal, bNewEnt, bInitialSnap, fieldName, bWasDemoJump )
+function handle_ai_breath( localClientNum, oldVal, newVal, bNewEnt, bInitialSnap, fieldName, bWasTimeJump )
 {
 	self endon( "entityshutdown" );
 	self endon( "death" );
