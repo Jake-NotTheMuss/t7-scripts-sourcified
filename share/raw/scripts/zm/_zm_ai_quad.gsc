@@ -151,7 +151,7 @@ function quad_prespawn()
 	self set_default_attack_properties();
 
 	//self.thundergun_disintegrate_func =&quad_thundergun_disintegrate;
-	self.thundergun_knockdown_func = &quad_thundergun_knockdown;
+	self.thundergun_knockdown_func =&quad_thundergun_knockdown;
 
 	//self.custom_damage_func =&quad_damage_func;
 
